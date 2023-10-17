@@ -7,12 +7,9 @@ import ProductList from '../ProductList';
 
 function ProductsFormSwitcher() {
   const { categories, setActiveCategorie } = useProductStore();
-  const [file, setFile] = useState<string>();
   const [open, setOpen] = useState<boolean>(false);
 
-  function handleChange(e) {
-    setFile(URL.createObjectURL(e.target.files[0]));
-  }
+
 
   return (
     <div className="flex flex-col gap-6 mx-20 my-8">
@@ -33,7 +30,7 @@ function ProductsFormSwitcher() {
           {open && (
             <div className="absolute top-10 z-30">
               <div className=" flex w-28   flex-col bg-white justify-center items-center border border-gray-300 rounded-md">
-                {categories.map((category, i) => (
+                {categories.map((category:any, i:number) => (
                   <div
                     key={i}
                     className="flex justify-center  py-2 text-sm cursor-pointer w-full hover:bg-gray-300"
