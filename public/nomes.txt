@@ -1,0 +1,17 @@
+/c/Users/HomePC/Desktop/teste/teste-sw/public/argila.jpeg
+/c/Users/HomePC/Desktop/teste/teste-sw/public/bird-toy.jpg
+/c/Users/HomePC/Desktop/teste/teste-sw/public/biscuits.png
+/c/Users/HomePC/Desktop/teste/teste-sw/public/camomilla-soap.jpeg
+/c/Users/HomePC/Desktop/teste/teste-sw/public/chocolate.jpeg
+/c/Users/HomePC/Desktop/teste/teste-sw/public/green-tea.jpeg
+/c/Users/HomePC/Desktop/teste/teste-sw/public/hair-conditioner.jpg
+/c/Users/HomePC/Desktop/teste/teste-sw/public/hamster.jpg
+/c/Users/HomePC/Desktop/teste/teste-sw/public/honey.jpg
+/c/Users/HomePC/Desktop/teste/teste-sw/public/leather-bone.jpg
+/c/Users/HomePC/Desktop/teste/teste-sw/public/litter-box.jpeg
+/c/Users/HomePC/Desktop/teste/teste-sw/public/olive-oil.jpeg
+/c/Users/HomePC/Desktop/teste/teste-sw/public/organic-quinoa.jpg
+/c/Users/HomePC/Desktop/teste/teste-sw/public/shampoo.jpg
+/c/Users/HomePC/Desktop/teste/teste-sw/public/soap.jpg
+/c/Users/HomePC/Desktop/teste/teste-sw/public/training-pad.jpg
+/c/Users/HomePC/Desktop/teste/teste-sw/public/tropical-bird-food.jpg
