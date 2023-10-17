@@ -10,9 +10,9 @@ interface ICarousel {
   prod: Product[];
 }
 const Carousel: React.FC<ICarousel> = ({ prod }) => {
-  const swiperRef = useRef<typeof Swiper | null>(null);
+  const swiperRef = useRef<any | null>(null);
 
-  const updateSwiperRef = (swiper: typeof Swiper | null) => {
+  const updateSwiperRef = (swiper: any | null) => {
     swiperRef.current = swiper;
   };
 
