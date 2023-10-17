@@ -28,6 +28,6 @@ export function useDerivedState() {
   const {activeCategorie} = useProductStore()
   return useProductStore(
     (state) =>
-      state.products.filter((p) => p.category === activeCategorie)[0].items
+      state.products.filter((p:any) => p.category === activeCategorie)[0].items
   );
 }
