@@ -1,12 +1,10 @@
 'use client';
 import React, { useRef,useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Navigation } from 'swiper/modules';
 import 'swiper/css/bundle';
 import CarouselCard from '../CarouselCard';
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/solid';
 import { Product } from 'lib/client/storage';
-import { useSwiper } from 'swiper/react';
 
 interface ICarousel {
   prod: Product[];
