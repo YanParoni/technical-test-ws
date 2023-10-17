@@ -30,6 +30,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+       <head>
+        <link rel='icon' href='/next.svg'/>
+      </head>
       <body
         className={`${inter.variable} ${playfair.variable} bg-[#FEFEFE]`}
       >
