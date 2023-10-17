@@ -1,8 +1,8 @@
 'use client';
+import "swiper/swiper-bundle.min.css";
 import React, { useRef,useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css/bundle';
-import CarouselCard from '../CarouselCard';
+;import CarouselCard from '../CarouselCard';
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/solid';
 import { Product } from 'lib/client/storage';
 
