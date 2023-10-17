@@ -1,5 +1,6 @@
 Technical test made to ws systems on the course of 3 days 
 
-![Screenshot 1](a.png)
+this was their requested design
+![Screenshot 1](public/a.png)
 
-![Screenshot 2](b.png)
+![Screenshot 2](public/b.png)
