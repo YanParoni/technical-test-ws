@@ -13,7 +13,7 @@ export default function ProductList({}: Props) {
         {activeCategorie} Products
       </div>
       <div className='flex flex-col gap-4'>
-      {products.map((product, i) => (
+      {products.map((product:any, i:number) => (
         <ProductForm key={i} prod={product} index={i} />
       ))}
       </div>

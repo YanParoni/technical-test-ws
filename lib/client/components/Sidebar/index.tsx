@@ -8,7 +8,7 @@ const CategoriesList = () => {
   return (
     <div className="h-screen ">
       <ul className=" flex-col  list-disc 	">
-        {categories.map((product, i) => (
+        {categories.map((product:any, i:number) => (
           <li
             key={`${product.description}, ${i}`}
             className="p-2  text-[#212427] cursor-pointer font-600 text-lg font-body hover:animate-pulse	transition hover:ease-in-out hover:-translate-y-1 hover:scale-110"

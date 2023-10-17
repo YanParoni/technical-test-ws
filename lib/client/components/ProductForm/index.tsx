@@ -128,7 +128,7 @@ export default function ProductForm({ prod, index}: { prod: Product, index:numbe
   const [isFormValid, setIsFormValid] = useState<boolean>(false);
  
   const formattedValue = useCurrencyFormatter(prod.value);
-  function isObjectEmpty(obj) {
+  function isObjectEmpty(obj:any) {
     return Object.keys(obj).length === 0;
   }
 
